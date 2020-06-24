@@ -13,7 +13,7 @@ class Archivo
                     {
 
                         cadena = br.readLine();
-
+//hola este es unc ckmwiner
                         while(cadena!=null)
                             {
                                 contenido.add(cadena);
