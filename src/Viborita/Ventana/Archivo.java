@@ -11,7 +11,7 @@ class Archivo
 
                 try(FileInputStream fis = new FileInputStream(nombreArchivo);DataInputStream din = new DataInputStream(fis);BufferedReader br = new BufferedReader(new InputStreamReader(din));)
                     {
-                        //hola profeee
+                        
                         cadena = br.readLine();
 
                         while(cadena!=null)
